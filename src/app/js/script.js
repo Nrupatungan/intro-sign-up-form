@@ -70,7 +70,7 @@ function show_alert(){
         password.parentElement.after(div);
         insert_error(password);
 
-    }else if(/^[a-zA-Z0-9!@#$%^&*()_+\-=[\]{};':"\\|,.<>\/?]{4,8}$/.test(password.value) === false || password.value.length < 8){
+    }else if(/^[a-zA-Z0-9!@#$%^&*()_+\-=[\]{};':"\\|,.<>\/?]{4,8}$/.test(password.value) === false || password.value.length > 8){
         div.append("Please enter a password of maximum 4-8 characters");
         password.parentElement.after(div);
         insert_error(password);

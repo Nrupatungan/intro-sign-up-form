@@ -19,12 +19,6 @@ module.exports = {
         Dark_Blue: 'hsl(249, 10%, 26%)',
         Grayish_Blue: 'hsl(246, 25%, 77%)',
       },
-      
-      backgroundImage: {
-        'mobile': "url('/assets/images/bg-intro-mobile.png')",
-        'desktop': "url('/assets/images/bg-intro-desktop.png')",
-        'error-icon': "url('/assets/images/icon-error.svg')",
-      },
 
       fontFamily: {
         Poppins: "'Poppins', sans-serif",

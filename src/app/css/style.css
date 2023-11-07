@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background: url(../../../assets/images/bg-intro-mobile.png);
+}
+
+.bg-error-icon{
+    background: (url(../../../assets/images/icon-error.svg));
+}
+
+@media only screen and (min-width: 700px) {
+    body{
+        background: url(../../../assets/images/bg-intro-desktop.png);
+    }
+}
