@@ -22,6 +22,10 @@ module.exports = {
 
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
+      },  
+
+      backgroundImage: {
+        'error-icon': 'url(../../assets/images/icon-error.svg)',
       },
 
       gridTemplateColumns: {
@@ -31,4 +35,3 @@ module.exports = {
   },
   plugins: [],
 }
-

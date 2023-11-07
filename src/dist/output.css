@@ -670,11 +670,7 @@ video {
 }
 
 .bg-error-icon {
-  background-image: url('/assets/images/icon-error.svg');
-}
-
-.bg-mobile {
-  background-image: url('/assets/images/bg-intro-mobile.png');
+  background-image: url(../../assets/images/icon-error.svg);
 }
 
 .bg-cover {
@@ -851,6 +847,16 @@ video {
   transition-timing-function: linear;
 }
 
+body{
+  background: url(../../../assets/images/bg-intro-mobile.png);
+}
+
+@media only screen and (min-width: 700px) {
+  body{
+    background: url(../../../assets/images/bg-intro-desktop.png);
+  }
+}
+
 .focus\:text-slate-600:focus {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -860,12 +866,6 @@ video {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-@media (min-width: 700px) {
-  .min-\[700px\]\:bg-desktop {
-    background-image: url('/assets/images/bg-intro-desktop.png');
-  }
 }
 
 @media (min-width: 1024px) {
