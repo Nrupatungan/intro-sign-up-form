@@ -862,6 +862,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (min-width: 700px) {
+  .min-\[700px\]\:bg-desktop {
+    background-image: url(../../assets/images/bg-intro-desktop.png);
+  }
+}
+
 @media (min-width: 768px) {
   .md\:bg-desktop {
     background-image: url(../../assets/images/bg-intro-desktop.png);
