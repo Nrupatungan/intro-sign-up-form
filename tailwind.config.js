@@ -25,6 +25,8 @@ module.exports = {
       },  
 
       backgroundImage: {
+        'mobile': 'url(../../assets/images/bg-intro-mobile.png)',
+        'desktop': 'url(../../assets/images/bg-intro-desktop.png)',
         'error-icon': 'url(../../assets/images/icon-error.svg)',
       },
 

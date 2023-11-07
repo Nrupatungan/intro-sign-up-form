@@ -1,13 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body{
-    background: url(../../../assets/images/bg-intro-mobile.png);
-  }
-  
-  @media only screen and (min-width: 700px) {
-    body{
-        background: url(../../../assets/images/bg-intro-desktop.png);
-    }
-  }

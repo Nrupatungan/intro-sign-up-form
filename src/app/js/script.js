@@ -82,7 +82,6 @@ function show_alert(){
 }
 
 function insert_error(element){
-
     element.className = "w-full text-sm font font-semibold text-Dark_Blue outline-none focus:text-slate-600  bg-error-icon bg-no-repeat h-6 bg-right";
     element.parentElement.className = "border-2 w-full border-Red p-3 mt-4 mb-1 rounded-md lg:p-4 ";
 }
